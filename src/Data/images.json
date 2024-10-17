@@ -27,14 +27,20 @@
     {
       "id": 4,
       "title": "Saxon Elector Christian I",
-      "url": "/img/Christian_I_of_Saxony.jpg",
-      "description": "Portrait of Christian I, Elector of Saxony (1560-1591), Wehme, Zacharias (1558-1606) - Maler,  ca. 1590, Öl auf Leinwand, 252 x 138 cm, Staatliche Kunstsammlungen Dresden, Inv.-No. 99/112"
+      "url": "/img/ Christian_I_of_Saxony.jpg",
+      "description": "Portrait of Christian I, Elector of Saxony (1560-1591), Zacharias Wehme (1558-1606), c. 1590, oil on canvas, 252 x 138 cm, Dresden State Art Collections, Inv.-No. 99/112"
     },
     {
       "id": 5,
       "title": "Field and Tournament Armor of Johann Wilhelm",
       "url": "/img/field_and_tournament_armor.jpg",
       "description": "Field and Tournament Armor of Johann Wilhelm (1530–1573), Duke of Saxe-Weimar, attributed to Anton Peffenhauser, etched decoration attributed to Jörg Sorg the Younger German, ca. 1565, MET, Accession Number: 29.155.2"
+    },
+    {
+      "id": 6,
+      "title": "Doublet",
+      "url": "/img/Doublet_arms-down.jpg",
+      "description": "The arm position in this arrangement is more natural and shows the widths of the sleeves."
     }
   ]
 }

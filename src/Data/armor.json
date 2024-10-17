@@ -15,7 +15,7 @@
     {
       "id": 2,
       "title": "16th century specialized armor",
-      "description": "This protective wear, dated 1591, is a decorated example that falls into the category of plate armor. While arms and armor are commonly associated with warfare, they were, as in this case, also used in other contexts, including hunting, tournaments, as parade costume or for ceremonial events. The displayed armor was designed for a particular type of tournament, the foot tournament, and protected the front and back of the torso, as well as the arms and the head."
+      "description": "This armor, dated 1591, is a decorated example that falls into the category of plate armor. While arms and armor are commonly associated with warfare, they were, as in this case, also used in other contexts, including tournaments, for parades or ceremonial events. The displayed armor was designed for a particular type of tournament, the foot tournament, and protected the front and back of the torso, as well as the arms and the head."
     },
     {
       "id": 3,
@@ -25,79 +25,69 @@
     {
       "id": 4,
       "title": "Components",
-      "description": "The armor consists of body, arm wear and a helmet, and does not include legwear. The closed helmet with a strongly extruded crest has a pin to hold the visor open."
+      "description": "A typical 16th century plate armor consisted of a helmet, a collar to protect the throat and neck, a cuirass (or breastplate), arm armor, i.e. upper and lower arm guards, fingered gloves, leg armor and an armored apron (succinctorium). Here the armor does not include legwear."
     },
     {
       "id": 5,
       "title": "",
-      "description": "The collar is triple pushed, has a laced edge and straps to fasten the armpits.",
+      "description": "The helmet covers the entire head, while the visor can be kept open by means of a pin. The ring collar, arranged in three layers, has leather straps from which the shoulder elements are suspended.",
       "background": "left"
     },
     {
       "id": 6,
       "title": "",
-      "description": "The breastplate is heavily ridged with a goose belly.",
+      "description": "The breastplate, seen here in profile, has the form of a peascod belly, also called a goose belly, a very popular element in men's fashion in the late 16th to the early 17th century.",
       "background": "left"
     },
     {
       "id": 7,
       "title": "",
-      "description": "Belly hoops are attached to the chest plate using leather straps."
+      "description": "The so called belly hoops, covering only the front and upper part of the legs, are attached to the breastplate via prominently featuring leather straps."
     },
     {
       "id": 8,
       "title": "",
-      "description": "The shoulders are unequal. The right shoulder also allows it to be used as a rider's harness. The holes on the right side of the chest would also allow the attachment of a hook for the lance. However, the current configuration is intended for combat on foot."
+      "description": "Both shoulder elements allow the arms to moove freely. According to the museum description , the right shoulder also allows it to be used as a rider's harness, allowing to attach a hook for a lance. As seen here, the configuration is intended for combat on foot."
     },
     {
       "id": 9,
       "title": "",
-      "description": "The arms are equipped with finger gloves."
+      "description": "Fingered gauntles allow the wearer a good range of motion while protecting fingers and knuckles."
     },
     {
       "id": 10,
-      "title": "",
-      "description": "The Augsburg inspection mark is stamped on the visor, collar, chest, back and arm tiles."
-    },
-    {
-      "id": 11,
-      "title": "Modular armor kits",
-      "description": "Armor of the 16th century, especially the more valuable examples, was produced as a kind of modular kit. There were various requirements for use in war as well as in tournaments. The basic armor could be reinforced with additional parts, modified for special battles or even omitted in parts to be more flexible."
-    },
-    {
-      "id": 12,
       "title": "The work of the plater",
       "description": "The so-called house books of the Mendel (cf. Mendel I, around 1425, Mendel II, around 1670-77) and Landauer 'Zwölfbrüderhaus Stiftungen' from the 15th century, in the possession of the Nuremberg City Library, are a valuable source of images of historical craftsmanship in Europe. For instance, <a href='https://online-service.nuernberg.de/viewer/hausbuecher/' target='_blanc'>“Mendel I, Mendel II and Landauer II”</a> depict the activities of the plater. They show, as in <a href='https://online-service.nuernberg.de/viewer/image/0f5e1d20-0f54-473b-9516-8cf87c93689a/109/LOG_0109/' target='_blanc'>“this example of a plater from 1592 (Amb. 317b.2°, [Fol 53/r])”</a>  the working environment within the brotherhood and the tools of the trade."
     },
     {
-      "id": 13,
+      "id": 11,
       "title": "The plate armorer Anton Pfeffenhauser",
-      "description": "TAnton Pfeffenhauser (Peffenhauser, Pepfenhauser) (around 1527 – 1601) was trained by members of the Helmschmied family and became the foremost master plate armorer in Augsburg during the late 16th century. He made richly decorated luxury armor for the princes of his time, including Archduke Ferdinand II, whose tournament armor is preserved at Ambras Castle in Innsbruck, or for Duke Johann Wilhelm of Saxe-Weimar. This </br><span class='module-content' data-href='3'>half armor</span>, created around 1570 and attributed to him is now in the art collections of the Veste Coburg.Pfeffenhausers armor mark shows a free-standing tripot, corresponding to his coat of arms. A copper votive panel from 1586 preserved in the Museo Correr (Venice) shows Plattner with three of his sons,as well as his master's mark in the coat of arms."
+      "description": "Anton Pfeffenhauser (Peffenhauser, Pepfenhauser) (around 1527 – 1601) was trained by members of the Helmschmied family and became the foremost master plate armorer in Augsburg during the late 16th century. He made richly decorated luxury armor for the princes of his time, including Archduke Ferdinand II, whose tournament armor is preserved at Ambras Castle in Innsbruck, or for Duke Johann Wilhelm of Saxe-Weimar. This </br><span class='module-content' data-href='3'>half armor</span>, created around 1570 and attributed to him is now in the art collections of the Veste Coburg. Pfeffenhausers armor mark shows a free-standing tripot, corresponding to his coat of arms. A copper votive panel from 1586 preserved in the Museo Correr (Venice) shows Plattner with three of his sons, as well as his master's mark in the coat of arms."
+    },
+    {
+      "id": 12,
+      "title": "The making of …",
+      "description": "The armor presented here is made of iron, steel, brass and leather straps. It measures 1,20m in height, 82 cm in width and 32 cm in depth. Pfeffenhauser finished the metal with a decorative technique called bluing. The bluing process entails repeated gentle heating of the sheet metal until the surface turns blue. Together with the ornamentation in gilded etching, Pfeffenhauser demonstrates the finesse of the craftsmanship in his workshop. <br/>He collaborated with the painter-engraver <a href='https://d-nb.info/gnd/135926157' target='_blanc'>“Jörg Sorg the Younger (around 1525–1603)”</a> and the goldsmith <a href='https://d-nb.info/gnd/137462336' target='_blanc'>“Jörg Sigman (around 1527–1601)”</a>. Preliminary drawings of Sorg's decorations 1548-63 are documented in the so-called <a href='https://www.deutsche-digitale-bibliothek.de/item/OLRY3TESGRMY2NMGHMZ3ZBBLWKPOPGEF' target='_blanc'>“Stuttgarter Harnisch-Musterbuch”</a>: 1548–1563 (Württemberg State Library, Cod. Milit. 2, 24)."
+    },
+    {
+      "id": 13,
+      "title": "Ornamentation",
+      "description": "At the beginning of the 16th century armor decoration frequently features Christian saints, biblical figures, and classical figures, set in cartouches and arranged on the top of the breastplate or embedded in more abstract decorum (e.g. in this example <a href='https://www.clevelandart.org/art/1996.299' target='_blanc'>“in this example”</a>). The designs on Pfeffenhausers amor are characterized by lines and linear decorum. An early </br><span class='module-content' data-href='5'>Field and tournament armor</span> of Johann Wilhelm (1530-1573), attributed to Anton Pfeffenhauser with etched ornaments by Jörg Sorg, with parts of the large and complex garniture being stored in the Historic Museum Dresden and The Metropolitan Museum of Art, displays the more linear pattern. <br/>It was only after 1570 when he turned to a decorum of leaf and flower tendrils, as seen in the present design. In this armor from 1591 larger-than-life tendril ornaments decorate the front and the back piece of the armor, the elbow protectors and the shoulder elements as well as the gauntlets and are continued on the back of the helmet. The design seems to emphasize the overall unity of the armor."
     },
     {
       "id": 14,
-      "title": "The making of …",
-      "description": "TThe armor presented here is made of iron, steel, brass and leather straps. It measures 1,20m in height, 82 cm in width and 32 cm in depth. Pfeffenhauser finished the metal with a technically highly difficult bluing process. To do this, the polished sheet metal was heated evenly to around 300°C until the surface first turned reddish and then blue. Together with the ornamentation in gilded etching, Pfeffenhauser demonstrates all the finesse of his craftsmanship in this harness. <br/>He collaborated with the painter-engraver Jörg Sorg the Younger (around 1525–1603) (<a target='_blank' href='https://d-nb.info/gnd/135926157'>Link</a>) and the goldsmith Jörg Sigman (around 1527–1601) (<a target='_blank' href='https://d-nb.info/gnd/137462336'>Link</a>). Preliminary drawings of Sorg's decorations 1548-63 are documented in the so-called Stuttgarter Harnisch-Musterbuch: 1548 – 1563 (Württemberg State Library, Cod. Milit. 2, 24) (<a target='_blank' href='https://www.deutsche-digitale-bibliothek.de/item/OLRY3TESGRMY2NMGHMZ3ZBBLWKPOPGEF'>Deutsche digitale bibliothek</a>)."
+      "title": "Made to measure for Elector Christian I.",
+      "description": "This harness was manufactured in 1591 for the </br><span class='module-content' data-href='4'>Saxon Elector Christian I</span> by Anton Pfeffenhauser. Commissioned by the Saxon Electress Sophie as a gift for her husband, it was one of a series of six matching pieces of armor with additional components for various sports. <br/>In the configuration shown, it was used for foot tournaments."
     },
     {
       "id": 15,
-      "title": "Ornamentation",
-      "description": "At the beginning of the 16th century amors decoration frequently features Christian saints, biblical figures, and classical figures, set in cartouches and arranged on the top of the breastplate or embedded in more abstract decorum (e.g.: https://www.clevelandart.org/art/1996.299). The designs on Pfeffenhausers amor are characterized by strict lines and linear decorum. An early </br><span class='module-content' data-href='5'>Field and Tournament Armor</span> of Johann Wilhelm (1530-1573), attributed to Anton Pfeffenhauser with etched ornaments by Jörg Sorg, with parts of the large and complex garniture being stored in the Historic Museum Dresden and The Metropolitan Museum of Art displays the more linear pattern. It was only after 1570 when he turned to a decorum of leaf and flower tendrils, as seen in this armor. <br/>In the case of this armor from 1591, larger-than-life tendril ornaments decorate the front and the back piece of the armor, the elbow protectors and the shoulder elements, the gauntlets and are continued on the back of the helmet. The rigid armor is almost overgrown by the tendrils, the design emphasizing the overall unity of the armor."
-    },
-    {
-      "id": 16,
-      "title": "Made to measure for Elector Christian I.",
-      "description": "This harness was manufactured in 1591 for the </br><span class='module-content' data-href='4'>Saxon Elector Christian I</span> by Anton Pfeffenhauser from Augsburg. Commissioned by the Saxon Electress Sophie as a gift for her husband, it was one of a series of six matching pieces of armor with additional components for various sports. <br/>In the configuration shown, it was used for foot tournaments."
-    },
-    {
-      "id": 17,
       "title": "The foot tournament",
       "description": "This tournament was played in pairs or in a group on a fenced-off course. Long spears and blunt swords were used as weapons. The elector, who was enthusiastic about tournaments, had a special arena built for equestrian games in his Dresden residence, which was completed in 1591."
     },
     {
-      "id": 18,
+      "id": 16,
       "title": "More details & findings",
-      "description": "The description of <a href='https://www.deutsche-biographie.de/pnd123871174.html#ndbcontent' target='_blanc'>“Anton Pfeffenhauser's biography”</a> shows that he was extraordinarily productive for half a century. The armor is displayed in the <a href='https://objektkatalog.gnm.de/wisski/navigate/4512/view' target='_blanc'>“online catalogue.”</a> of Germanisches Nationalmuseum. More info on the decoration techniques can be found at the <a href='https://www.metmuseum.org/toah/hd/dect/hd_dect.htm' target='_blanc'>“Heilbrunn timeline of Art History.”</a>",
+      "description": "The description of <a href='https://www.deutsche-biographie.de/pnd123871174.html#ndbcontent' target='_blanc'>“Anton Pfeffenhauser's biography”</a> shows that he was extraordinarily productive for half a century. The armor and its decription can be found in the <a href='https://objektkatalog.gnm.de/wisski/navigate/4512/view' target='_blanc'>online catalogue.”</a> of Germanisches Nationalmuseum. More info on the decoration techniques can be found at the <a href='https://www.metmuseum.org/toah/hd/dect/hd_dect.htm' target='_blanc'>“Heilbrunn timeline of Art History.”</a>",
       "background": "left"
     }
   ]
