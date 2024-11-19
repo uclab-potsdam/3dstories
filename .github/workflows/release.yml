@@ -1,0 +1,80 @@
+name: Build and Release
+
+on:
+  push:
+    tags:
+      - 'v*' # Triggers on tags that start with 'v'
+
+jobs:
+  build:
+    name: Build Vite React App
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build the app
+        env:
+          BASE_PATH: /3dstories
+        run: npm run build -- --base=$BASE_PATH
+
+      - name: Create tarball of dist folder
+        run: tar -czf dist.tar.gz -C dist .
+
+      - name: Upload to release
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist-tarball
+          path: dist.tar.gz
+
+  release:
+    name: Create GitHub Release
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: dist-tarball
+
+      - name: Create a Draft Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist.tar.gz
+          draft: true
+      - name: Create GitHub Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref_name }} # Use the tag that triggered the workflow
+          release_name: Release ${{ github.ref_name }}
+          body: |
+            Release notes for ${{ github.ref_name }}
+            - Contains the build artifacts for `/3dstories`.
+          draft: false
+          prerelease: false
+
+      - name: Upload tarball to release
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: dist.tar.gz
+          asset_name: dist.tar.gz
+          asset_content_type: application/gzip
