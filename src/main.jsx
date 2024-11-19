@@ -15,9 +15,12 @@ if (editMode) {
   })
 }
 
+console.info('Welcome to 3dStories')
+console.info('BASE_UR:', import.meta.env.BASE_URL)
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <App />
     </BrowserRouter>
   </React.StrictMode>
