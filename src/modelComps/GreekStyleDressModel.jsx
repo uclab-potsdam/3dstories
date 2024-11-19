@@ -13,7 +13,7 @@ const GreekStyleDressModel = forwardRef(({ position, rotation, ...props }, ref) 
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
-  const { nodes, materials } = useGLTF('/greek_style_dress.glb')
+  const { nodes, materials } = useGLTF(import.meta.env.BASE_URL + '/greek_style_dress.glb')
   materials.material_0.depthWrite = true
   materials.material_0.metalness = 0
   materials.material_0.roughness = 1
@@ -36,6 +36,6 @@ const GreekStyleDressModel = forwardRef(({ position, rotation, ...props }, ref) 
   )
 })
 
-useGLTF.preload('/greek_style_dress.glb')
+useGLTF.preload(import.meta.env.BASE_URL + '/greek_style_dress.glb')
 
 export default GreekStyleDressModel

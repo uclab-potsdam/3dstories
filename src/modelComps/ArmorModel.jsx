@@ -13,7 +13,7 @@ const ArmorModel = forwardRef(({ position, rotation, scale, ...props }, ref) => 
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
-  const { nodes, materials } = useGLTF('/armor.glb')
+  const { nodes, materials } = useGLTF(import.meta.env.BASE_URL + '/armor.glb')
   materials.material_0.depthWrite = true
   // materials.material_0.metalness = 0
   materials.material_0.transparent = true
@@ -25,6 +25,6 @@ const ArmorModel = forwardRef(({ position, rotation, scale, ...props }, ref) => 
   )
 })
 
-useGLTF.preload('/armor.glb')
+useGLTF.preload(import.meta.env.BASE_URL + '/armor.glb')
 
 export default ArmorModel

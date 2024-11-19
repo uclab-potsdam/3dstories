@@ -13,7 +13,7 @@ const SpencerJacketModel = forwardRef(({ position, rotation, ...props }, ref) =>
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
-  const { nodes, materials } = useGLTF('/spencer_jacket.glb')
+  const { nodes, materials } = useGLTF(import.meta.env.BASE_URL + '/spencer_jacket.glb')
   materials.material_0.depthWrite = true
   materials.material_0.metalness = 0
   materials.material_0.roughness = 1
@@ -36,6 +36,6 @@ const SpencerJacketModel = forwardRef(({ position, rotation, ...props }, ref) =>
   )
 })
 
-useGLTF.preload('/spencer_jacket.glb')
+useGLTF.preload(import.meta.env.BASE_URL + '/spencer_jacket.glb')
 
 export default SpencerJacketModel

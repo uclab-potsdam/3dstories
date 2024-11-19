@@ -13,7 +13,7 @@ const OuterDoubletModel = forwardRef(({ position, rotation, ...props }, ref) => 
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
-  const { nodes, materials } = useGLTF('/outer_douplet.glb')
+  const { nodes, materials } = useGLTF(import.meta.env.BASE_URL + '/outer_douplet.glb')
   materials.material_0.depthWrite = true
   materials.material_0.metalness = 0
   materials.material_0.roughness = 1
@@ -36,6 +36,6 @@ const OuterDoubletModel = forwardRef(({ position, rotation, ...props }, ref) => 
   )
 })
 
-useGLTF.preload('/outer_douplet.glb')
+useGLTF.preload(import.meta.env.BASE_URL + '/outer_douplet.glb')
 
 export default OuterDoubletModel

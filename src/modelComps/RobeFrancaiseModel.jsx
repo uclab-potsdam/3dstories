@@ -13,7 +13,7 @@ const RobeFrancaiseModel = forwardRef(({ position, rotation, ...props }, ref) =>
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
-  const { nodes, materials } = useGLTF('/robeFrancaise.glb')
+  const { nodes, materials } = useGLTF(import.meta.env.BASE_URL + '/robeFrancaise.glb')
   materials.material_0.depthWrite = true
   materials.material_0.metalness = 0
   materials.material_0.transparent = true
@@ -33,6 +33,6 @@ const RobeFrancaiseModel = forwardRef(({ position, rotation, ...props }, ref) =>
   )
 })
 
-useGLTF.preload('/robeFrancaise.glb')
+useGLTF.preload(import.meta.env.BASE_URL + '/robeFrancaise.glb')
 
 export default RobeFrancaiseModel
