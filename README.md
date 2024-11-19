@@ -27,13 +27,28 @@ Ensure you have the following installed:
 ### Steps
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/yourusername/3D-Stories.git
    cd 3D-Stories
    ```
+
 2. Install the dependencies:
+
    ```bash
    npm install
+   ```
+
+3. To build under a specific path, e.g. `/3dstories` you also need to specify the full base url in the `VITE_URL` variable:
+
+   ```bash
+   VITE_URL=https://your-domain/3dstories  npm run build -- --base=/3dstories
+   ```
+
+4. Preview:
+
+   ```bash
+   npm run preview -- --base=/3dstories
    ```
 
 ## Usage
